@@ -3,7 +3,7 @@
 }
 .section .section-inner {
   background: #fff;
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
 }
 .section .heading {
   margin-top: 0;
@@ -97,7 +97,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: #479fc8;
+  background-color: #0066b3;
   -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -109,7 +109,7 @@
   content: "";
   position: absolute;
   bottom: -5px;
-  border-top: 5px solid #276582;
+  border-top: 5px solid #0066b3;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
 }
@@ -138,4 +138,14 @@
 
 .projects .item .title a:hover {
   color: #5f6b77;
+}
+.img-fluid1 {
+  max-width: 28%;
+  height: 35px;
+}
+.inline-block {
+  display: inline-block;
+}
+.p-justify {
+  text-align: justify;
 }
